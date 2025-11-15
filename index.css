@@ -134,3 +134,19 @@ footer{
     border-radius: 12px;
     margin-bottom: 30px;
 }
+
+@media screen and (max-width:850px){
+    nav{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    article{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+
+}
